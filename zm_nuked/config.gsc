@@ -23,8 +23,8 @@
 #include maps\mp\zombies\_zm_perk_electric_cherry;
 
 init() {
-    setdvar("enable_mannequins", "1"); // enable mannequin counter 
+    setdvar("enable_mannequins", "0"); // enable mannequin counter 
     setdvar("enable_perks", "1"); // you guessed it, enables perk machines
     setdvar("the_watcher", "1"); // does most magical stuff so leave this on unless u want that all disabled.
-    setdvar("start_weap", "tazer_knuckles_zm"); // start weapon, put 0 to disable custom start weapon tazer_knuckles_zm is default
+    setdvar("start_weap", "tazer_knuckles_zm", "0"); // start weapon, put 0 to disable custom start weapon tazer_knuckles_zm is default
 }
